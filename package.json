@@ -9,7 +9,7 @@
     "test": "ng test",
     "server": "json-server --watch db.json --port 3000",
     "serve:ssr:home-money": "node dist/home-money/server/server.mjs",
-    "dev": "concurrently -kill-others \"npm run start\" && \"npm run server\""
+    "dev": "concurrently -kill-others \"npm run start\" \"npm run server\""
   },
   "private": true,
   "dependencies": {
