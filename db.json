@@ -5,51 +5,6 @@
       "email": "wfm@mail.ru",
       "password": "12345678",
       "name": "Администратор"
-    },
-    {
-      "id": "d8b9",
-      "email": "munkonikitav@gmail.com",
-      "password": "Goodgame2005262017",
-      "name": "hgc"
-    },
-    {
-      "id": "4d62",
-      "email": "nikmoon16@gmail.com",
-      "password": "asdasd",
-      "name": "Nikita"
-    },
-    {
-      "id": "61a3",
-      "email": "asdasd@ws",
-      "password": "asdasd",
-      "name": "asdasd"
-    },
-    {
-      "id": "35ca",
-      "email": "test2@g",
-      "password": "123123",
-      "name": "hgc"
-    }
-  ],
-  "bill": {
-    "value": 100000,
-    "currency": "RUB"
-  },
-  "categories": [
-    {
-      "name": "Дом",
-      "capacity": 15000,
-      "id": "1"
-    },
-    {
-      "name": "Еда",
-      "capacity": 10000,
-      "id": "2"
-    },
-    {
-      "id": "3",
-      "name": "Машина",
-      "capacity": 7000
     }
   ],
   "events": [
