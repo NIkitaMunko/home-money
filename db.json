@@ -1,10 +1,34 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "email": "wfm@mail.ru",
       "password": "12345678",
       "name": "Администратор"
+    },
+    {
+      "id": "d8b9",
+      "email": "munkonikitav@gmail.com",
+      "password": "Goodgame2005262017",
+      "name": "hgc"
+    },
+    {
+      "id": "4d62",
+      "email": "nikmoon16@gmail.com",
+      "password": "asdasd",
+      "name": "Nikita"
+    },
+    {
+      "id": "61a3",
+      "email": "asdasd@ws",
+      "password": "asdasd",
+      "name": "asdasd"
+    },
+    {
+      "id": "35ca",
+      "email": "test2@g",
+      "password": "123123",
+      "name": "hgc"
     }
   ],
   "bill": {
@@ -15,22 +39,22 @@
     {
       "name": "Дом",
       "capacity": 15000,
-      "id": 1
+      "id": "1"
     },
     {
       "name": "Еда",
       "capacity": 10000,
-      "id": 2
+      "id": "2"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Машина",
       "capacity": 7000
     }
   ],
   "events": [
     {
-      "id": 1,
+      "id": "1",
       "type": "income",
       "amount": 1250,
       "category": 2,
@@ -38,7 +62,7 @@
       "description": "Подарили еду в гостях"
     },
     {
-      "id": 2,
+      "id": "2",
       "type": "outcome",
       "amount": 1300,
       "category": 1,
@@ -50,7 +74,7 @@
       "amount": 1480,
       "category": 2,
       "date": "17.06.2017 14:00:48",
-      "id": 3,
+      "id": "3",
       "description": "Поход в окей с баллами. Бесплатная еда"
     },
     {
@@ -58,7 +82,7 @@
       "amount": 2470,
       "category": 2,
       "date": "17.06.2017 14:00:58",
-      "id": 4,
+      "id": "4",
       "description": "Закупка на неделю"
     },
     {
@@ -66,7 +90,7 @@
       "amount": 4000,
       "category": 3,
       "date": "10.06.2017 14:01:58",
-      "id": 5,
+      "id": "5",
       "description": "Заправка + проход ТО"
     }
   ]
