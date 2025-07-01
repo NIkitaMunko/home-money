@@ -7,6 +7,37 @@
       "name": "Администратор"
     }
   ],
+  "bill": {
+    "value": 100000,
+    "currency": "RUB"
+  },
+  "categories": [
+    {
+      "name": "Дом",
+      "capacity": 15000,
+      "id": "1"
+    },
+    {
+      "name": "Еда",
+      "capacity": 10000,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Машина",
+      "capacity": 7000
+    },
+    {
+      "id": "01a9",
+      "name": "qweq",
+      "capacity": 1000000000000
+    },
+    {
+      "id": "1211",
+      "name": "123123",
+      "capacity": 1123123123123
+    }
+  ],
   "events": [
     {
       "id": "1",

@@ -4,7 +4,6 @@ import {map, Observable} from 'rxjs';
 import {Bill} from '../models/bill.model';
 import {BaseApi} from '../../../shared/core/base-api';
 
-// @ts-ignore
 @Injectable({
   providedIn: 'root'
 })
