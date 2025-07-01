@@ -18,8 +18,8 @@ export class BillService extends BaseApi {
     return this.get('bill')
   }
 
-  getCurrency() {
-
+  getCurrency(): Observable<any> {
+    return this.get('currency')
   }
 
 }
