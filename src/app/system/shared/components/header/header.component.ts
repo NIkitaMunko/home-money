@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {DatePipe} from '@angular/common';
+import {DatePipe, NgIf} from '@angular/common';
 import {DropdownDirective} from '../../directives/dropdown.directive';
 import {Router, RouterLink} from '@angular/router';
 import {User} from '../../../../shared/models/user.model';
@@ -10,7 +10,8 @@ import {AuthService} from '../../../../shared/services/auth.service';
   imports: [
     DatePipe,
     DropdownDirective,
-    RouterLink
+    RouterLink,
+    NgIf
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
@@ -18,7 +19,7 @@ import {AuthService} from '../../../../shared/services/auth.service';
 export class HeaderComponent implements OnInit {
 
   date: Date = new Date();
-  user!: User;
+  user: User | undefined;
 
   constructor(
     private authService: AuthService,
@@ -27,7 +28,9 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.user = JSON.parse(<string>window.localStorage.getItem('user'));
+    if (typeof window !== 'undefined') {
+      this.user = JSON.parse(<string>window.localStorage.getItem('user'));
+    }
   }
 
   onLogout() {

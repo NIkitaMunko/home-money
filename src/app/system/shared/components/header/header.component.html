@@ -6,7 +6,7 @@
     <ul class="nav-profile">
       <li class="profile dropdown" wfm-dropdown>
         <a class="nav-link dropdown-toggle" role="button">
-          <span class="name">
+          <span class="name" *ngIf="user">
             Здравствуйте, {{ user.name }}
           </span>
         </a>
